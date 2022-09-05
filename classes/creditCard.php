@@ -16,7 +16,7 @@ class creditCard extends payment{
     
     public function setcreditCardExpired($creditCardExpired){
         if($creditCardExpired == true){
-        $this->creditCardExpired = null;
+        $this->creditCard = null;
         }
     }
 
