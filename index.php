@@ -1,6 +1,8 @@
 <?php 
 require_once __DIR__ . '/classes/e-commerce.php';
 require_once __DIR__ . '/classes/user.php';
+require_once __DIR__ . '/classes/productsForAnimals.php';
+require_once __DIR__ . '/classes/payment.php';
 ?>
 
 <!DOCTYPE html>
