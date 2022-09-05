@@ -1,7 +1,12 @@
 <?php 
 require_once __DIR__ . '/e-commerce.php';
+require_once __DIR__ . '/../traits/barcode.php';
+require_once __DIR__ . '/../traits/position.php';
 
 class productForAnimal extends ECommerce{
+    use code;
+    use position;
+
     protected $gamesForAnimals;
     protected $foodForAnimals;
     protected $petBeds;
@@ -19,7 +24,7 @@ class productForAnimal extends ECommerce{
 
 
 
-    
+
 }
 
 

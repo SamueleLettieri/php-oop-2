@@ -14,7 +14,7 @@ class payment extends ECommerce{
 
     public function setdiscount($userRegistered){
         if($userRegistered == true){
-            $this->discount =  20 .'%';
+            $this->discount =  20 . '%';
         }
     }
 
